@@ -7,6 +7,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.2'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails' 
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -20,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
+gem 'coffee-script-source', '~> 1.11', '>= 1.11.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
